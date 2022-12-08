@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+    width: 100vw;
+    height: 8vh;
+    background-color: #555;
+    color: #fff;
+    padding-top: 10px;
+    font-size: 3vh;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 84vh;
+}
+.info{
+    text-align: center;
+    border: 2px solid #555;
+    width: 65vw;
+    height: 20vh;
+    padding: 20px;
+}
+.info h3{
+    margin-bottom: 5px;
+    font-size: 40px;
+}
+.info h5{
+    font-size: 17px;
+    font-weight: 200;
+}
+.box_message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #555;
+    width: 65vw;
+    height: 20vh;
+    margin-top: 2vw;
+}
+.message{
+    width: 40vw;
+    height: 5vh;
+    border-radius: 8px;
+    border-color: #000;
+    padding: 3px;
+    font-size: 15px;
+}
+.send{
+    width: 10vw;
+    height: 5.4vh;
+    border-radius: 8px;
+    border-color: #000;
+    background-color: #48e;
+    color: #eee;
+    font-weight: bold;
+}
+.send:hover{
+    background-color: rgb(26, 111, 196);
+    font-size: 16px;
+}
+footer{
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 8vh;
+    background-color: #555;
+}
+.copyright{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    padding-top: 2vh;
+}
